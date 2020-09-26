@@ -78,7 +78,11 @@ body {
     justify-content: center;
     align-items: center;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 4em;
+    grid-template-rows: 3.3em;
+}
+
+#main_links img {
+    max-height: 32px;
 }
 
 #profile_links {
@@ -90,6 +94,10 @@ body {
 
 #profile_links a {
     padding: 1em 2em;
+}
+
+#profile_links img {
+    max-height: 32px;
 }
 
 #other_links {
